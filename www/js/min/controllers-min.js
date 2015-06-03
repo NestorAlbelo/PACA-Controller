@@ -1,0 +1,1 @@
+angular.module("starter.controllers",[]).controller("HomeCtrl",function(t){}).controller("LogsCtrl",function(t,o){t.chats=o.all(),t.remove=function(t){o.remove(t)}}).controller("LogDetailCtrl",function(t,o,l){t.chat=l.get(o.chatId)}).controller("HelpCtrl",function(t){t.settings={enableFriends:!0}}),Logs;
